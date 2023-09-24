@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Focus Strengthening Game</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <a href="#" id="about">About Me</a>
+    <a href="#" id="contact">Contact Me</a>
+    <a href="#" id="more-game">More Game</a>
+    <img src="images/setting.png" alt="settings" id="settings">
+  
+  </nav>
+
+  <div id="setting">
+    <div id="menu-setting">
+      <img src="images/close.png" alt="close" id="close">
+
+      <p for="level" id="level">Difficulty level </p>
+      <input type="range"  id="level">
+
+      <p for="level" id="level">Replay progress in the game</p>
+
+      
+
+      <p for="level" id="level">Day Mode</p>
+      
+    </div>
+
+  </div>
+
+
+ 
+  <div id="all-element">
+
+  
+
+  <div class="range-container">
+   <input type="range" id="customRange" min="1" max="100" step="1" disabled>
+   <div id="rangeProgress"></div>
+   <div id="rangeValue">Level 1</div>
+  </div>
+
+
+ 
+  <p id="head-title">Focus Strengthening Game</p>
+  <br>
+ 
+ <div id="score">
+
+  <span id="wrong"> Wrong : 0</span>
+  <span id="correct"> Correct : 0</span>
+
+ </div> 
+ 
+ 
+ <p id="finsh">Finsh The Game</p>
+ <br>
+
+
+ 
+ <div id="container">
+  
+  <button id="blue" onclick="numElement.push(0)" >
+   
+  </button>
+  
+  <button id="yellow" onclick="numElement.push(1)">
+   
+  </button>
+  
+  <button id="red" onclick="numElement.push(3)">
+   
+  </button>
+  
+  <button id="green" onclick="numElement.push(2)">
+   
+  </button>
+  
+  <!-- End container -->
+ </div>
+ <button id="but-start">Start</button>
+ <button id="but-stop">Stop</button>
+</div>
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
